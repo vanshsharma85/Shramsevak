@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Labour Registration</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            margin-top: 500px;
+            background-color: #fff;
+            padding: 100px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html"><center><img src="homepg.png" width="400px"></center></a>
+    
+
+    <h1>Labour Registration</h1>
+
+    <form action="registration.html">
+
+        <label for="username">Create Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email(If Available):</label>
+        <input type="email" id="email" name="email" >
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        <label for="experience">Experience (years):</label>
+        <input type="number" id="experience" name="experience" min="0" required>
+
+        <label for="name">Reference Person Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Reference Person Contact Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="specialization">Labour Category:</label>
+        <input type="checkbox" name="Labour1" value="All"> All<br>
+        <input type="checkbox" name="Labour2" value="Carpenter"> Carpenter<br>
+        <input type="checkbox" name="Labour3" value="Mistri"> Mistri<br>
+        <input type="checkbox" name="Labour3" value="Labour"> Labour<br>
+        <input type="checkbox" name="Labour3" value="Lanter machine & Labour"> Lanter machine & Labour<br>
+        <input type="checkbox" name="Labour3" value="Painter"> Painter<br>
+        <input type="checkbox" name="Labour3" value="Pest Control"> Pest Control<br>
+        <input type="checkbox" name="Labour3" value="Plumber"> Plumber<br>
+        <input type="checkbox" name="Labour3" value="Electrician"> Electrician<br>
+        <input type="checkbox" name="Labour3" value="Gardener"> Gardener<br>
+        <input type="checkbox" name="Labour3" value="AC Servicing"> AC Servicing<br>
+        <input type="checkbox" name="Labour3" value="Tank Cleaning"> Tank Cleaning<br>
+
+
+        
+        
+       
+        
+        
+        <button>Register</button>
+        
+        
+    </form>
+</div>
+</body>
+</html>

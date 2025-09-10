@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shramsevak-mistri-booking-page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #232f3e;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .search-bar {
+            margin: 20px 0;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+        .product-details {
+            flex-grow: 1;
+        }
+        .product-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .product-price {
+            color: #b12704;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Shramsevak</div>
+        
+        <div class="product">
+            <img src="mistri.jpg" alt="Product Image">
+            <div class="product-details">
+                <div class="product-title">SS1001 </div>
+                <div class="product-title">Mohan Lal </div>
+                <div class="product-price">₹900/day</div>
+                <div class="product-details">4.5 star Rating by 1000 peoples</div>
+                
+                <button onclick="sendEmail1()">Book</button>
+
+<script>
+function sendEmail1() {
+    var email = "shramsevakbookingportal@gmail.com";
+    var subject = "Booking for SS1001-Mohan Lal Mistri";
+    var body = "Please book this mistri for me and contact me as soon as possible contact details user: Sample, Phone No-123.";
+    window.open("https://mail.google.com/mail/?view=cm&fs=1&to=" + email + "&su=" + subject + "&body=" + body);
+}
+</script>
+
+            </div>
+        </div>
+        <div class="product">
+            <img src="chaturlal.png" alt="Product Image">
+            <div class="product-details">
+                <div class="product-title">SS1002</div>
+                <div class="product-title">Chaturlal</div>
+                <div class="product-price">₹900/day</div>
+                <div class="product-details">4.4 star Rating by 900 peoples</div>
+                <button onclick="sendEmail2()">Book</button>
+
+<script>
+function sendEmail2() {
+    var email = "shramsevakbookingportal@gmail.com";
+    var subject = "Booking for SS1002-Chatur Lal Mistri";
+    var body = "Please book this mistri for me and contact me as soon as possible contact details user: Sample, Phone No-123.";
+    window.open("https://mail.google.com/mail/?view=cm&fs=1&to=" + email + "&su=" + subject + "&body=" + body);
+}
+</script>
+            </div>
+        </div>
+        <div class="product">
+            <img src="Champak.png" alt="Product Image">
+            <div class="product-details">
+                <div class="product-title">SS1003</div>
+                <div class="product-title">Champak Lal Markande</div>
+                <div class="product-price">₹850/day</div>
+                <div class="product-details">4.2 star Rating by 850 peoples</div>
+                <button onclick="sendEmail3()">Book</button>
+
+<script>
+function sendEmail3() {
+    var email = "shramsevakbookingportal@gmail.com";
+    var subject = "Booking for SS1003-Champak Lal Markande Mistri";
+    var body = "Please book this mistri for me and contact me as soon as possible contact details user: Sample, Phone No-123.";
+    window.open("https://mail.google.com/mail/?view=cm&fs=1&to=" + email + "&su=" + subject + "&body=" + body);
+}
+</script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
